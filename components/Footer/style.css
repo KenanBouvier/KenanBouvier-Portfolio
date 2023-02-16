@@ -1,0 +1,36 @@
+.footerDiv{
+    padding-top:50px;
+    padding-bottom:25px
+  }
+  
+  .footerTxt{
+    text-align:center;
+    font-weight:100;
+    font-size:15px;
+  }
+  
+  .footerLinks{
+      font-family: "Lato", sans-serif;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      /* justify-content: space-evenly; */
+      justify-content: center;
+  }
+  
+  .footerghicon{
+    width:30px;
+    height:30px;
+    padding-left:25px;
+    padding-right:25px
+  }
+  
+  .footerghicon:hover{
+    transform: scale(1.1);
+  }
+  
+  .developedDiv{
+    padding-bottom:30px;
+    padding-left:25px;
+  }

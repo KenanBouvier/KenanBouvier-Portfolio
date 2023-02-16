@@ -1,0 +1,15 @@
+export default new Map([
+    ["react", ['https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',60]],
+    ["nodejs",['https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',75]],
+    ["heroku",['https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg',60]],
+    ["graphql",['https://upload.wikimedia.org/wikipedia/commons/1/17/GraphQL_Logo.svg',60]],
+    ["mongodb",['https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg',90]],
+    ["mysql",['https://www.vectorlogo.zone/logos/mysql/mysql-official.svg',80]],
+    ["php",['https://www.php.net/images/logos/new-php-logo.svg',70]],
+    ["apache",['https://www.vectorlogo.zone/logos/apache/apache-official.svg',85]],
+    ["jwt",['https://www.vectorlogo.zone/logos/apache/apache-official.svg',60]],
+    ["linux",['https://www.vectorlogo.zone/logos/linux/linux-ar21.svg',85]],
+    ['javascript',['https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg',60]],
+    ['typescript',['https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg',50]],
+    ['express',['https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg',80]],
+  ]);

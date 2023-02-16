@@ -1,0 +1,78 @@
+.technologies{
+    opacity:0.85;
+    padding-left: 10px;
+    filter:none;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .technologies:hover{
+    transform: scale(1.05); 
+    opacity:1;
+  }
+  
+  .overviewImg{
+    height:400px;
+    padding-bottom:50px;
+  }
+  
+  .flex-container{
+    display:flex;
+  }
+  
+  .flex-child{
+    flex:1;
+  }
+  
+  
+  .flex-child:first-child{
+    flex:2;
+    margin-right:100px;
+  }
+  
+  .role{
+    font-weight: 100;
+  }
+  .projectTitle{
+    margin-bottom:0%;
+    font-weight:450;
+    /* color:var(--yellowColor); */
+    /* color:#8a8260; */
+  }
+  
+  .description{
+    margin-top:3%;
+    padding-bottom:8px;
+  }
+  .viewCodeHref{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    height:35px; 
+    /* width:200px; */
+    border-radius:20px;
+    text-decoration: none;
+    color:white;
+    border:3px solid white;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .viewCodeHref:hover{
+    border-color:#ffe251;
+    color: #ffe251;
+  }
+  
+  .otherDiv{
+    flex:1;
+    margin-right:150px;
+  }
+  .hrefContainer{
+    display:flex;
+    padding-top:25px;
+    padding-bottom:30px;
+  }
+  
+  .ghIcon{
+    width:30px;
+    padding-left:7px;
+  }
+  

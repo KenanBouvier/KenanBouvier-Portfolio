@@ -1,0 +1,35 @@
+.name{
+    /* font-size: calc(30px + 2vmin); */
+    font-size: 57px;
+    font-weight:300;
+    margin:0px;
+    padding-top:80px;
+  }
+  
+  .dev{
+    font-weight:25;
+    /* font-size: calc(15px + 2vmin); */
+    font-size:32px;
+    margin:15px;
+  }
+  
+  .email{
+    text-decoration: none;
+    /* font-size: calc(10px + 1vmin); */
+    font-size:18.6px;
+    font-weight:150;
+    margin:20px;
+  }
+  
+  .header{
+    color: white;
+    text-align: center;
+    padding-bottom:10px;
+    /* background-color: #2d363c; */
+  }
+  
+  .headerLogo{
+    pointer-events: none;
+    width: calc(400px + 2vmin);
+  }
+  

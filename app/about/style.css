@@ -1,0 +1,22 @@
+
+.aboutTitle{
+  margin-bottom: 20px;
+  font-weight:450;
+}
+
+.aboutTxt{
+  font-size:20px;
+  font-weight:200;
+  margin:5px;
+}
+.developed{
+  font-size:20px;
+  font-weight:200;
+  margin:5px;
+}
+
+
+a{
+  text-decoration: none;
+  color: #fddb3a;
+}
