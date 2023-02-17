@@ -1,6 +1,6 @@
 body {
-  margin-left:6%;
-  margin-right:6%;
+  /* margin-left:6%;
+  margin-right:6%; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -35,9 +35,6 @@ a {
 }
 
 @media (max-width:710px){
-  .navMenu {
-    padding-left: 20px;
-  }
   .navMenu .dot {
     display:none;
 
@@ -45,10 +42,10 @@ a {
   .navMenu a {
     display:block;
   }
-  .sectionContentContainer{
+  /* .sectionContentContainer{
     padding-left:20px;
     padding-right:20px;
-  }
+  } */
   .name{
       /* font-size: calc(30px + 2vmin); */
       font-size: 40px;
