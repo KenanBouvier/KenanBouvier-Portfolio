@@ -10,7 +10,7 @@ export default function Footer() {
     <div className='footerDiv'>
       <div className='developedDiv'>
       <p className='developed'>[Website developed using Next.js. Source code can be found 
-      <a href="https://github.com/KenanBouvier/developer-portfolio-website" className='linkTag'> here.</a>]
+      <a href="https://github.com/KenanBouvier/KenanBouvier-Portfolio" className='linkTag'> here.</a>]
       </p>
       </div>
       <div className='footerLinks'>
