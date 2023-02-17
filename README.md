@@ -13,7 +13,7 @@ Then whatever other pages you want (e.g. About, etc.);
 ## How to customize
 
 I have built this website to allow for easy updating of projects and info. There is a projectData.js file which is data representing the projects (or similar).
-Simply replace the data with yours. Similary, if you would like extra fields, you can edit the  IProps type to add different fields. From which you can add that in the projectData.js file.
+Simply replace the data with yours. Similary, if you would like extra fields, you can edit the  IProps type to add different fields. From which you can add that in the [projectData.js](./public/projectData.js) file.
 
 ```typescript
 interface IProps{
@@ -37,7 +37,7 @@ The main title for the project
 Your role/position
 
 ### *Technologies*
-This is an array of the technologies used in the project. Currently, I have set it up to map the technology string to the relevant svg through the iconMap.js file. 
+This is an array of the technologies used in the project. Currently, I have set it up to map the technology string to the relevant svg through the [iconMap.js](./public/iconMap.js) file. 
 
 For non-existing svgs in the map, add with format:
 
