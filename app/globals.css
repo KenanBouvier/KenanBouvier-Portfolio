@@ -35,10 +35,31 @@ a {
 }
 
 @media (max-width:710px){
+  .navMenu {
+    padding-left: 20px;
+  }
   .navMenu .dot {
     display:none;
+
   }
   .navMenu a {
     display:block;
+  }
+  .sectionContentContainer{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .name{
+      /* font-size: calc(30px + 2vmin); */
+      font-size: 40px;
+      font-weight:400;
+      margin:0px;
+      padding-top:80px;
+  }
+  .dev{
+    font-weight:25;
+    /* font-size: calc(15px + 2vmin); */
+    font-size:25px;
+    margin:15px;
   }
 }
