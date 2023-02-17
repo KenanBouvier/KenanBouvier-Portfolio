@@ -1,6 +1,6 @@
 # Portfolio Website
 
-See the example website for my portfolio at https://kenanbouvier.com
+See the example website used in my portfolio at https://kenanbouvier.com
 
 ## Template Overview
 
@@ -9,7 +9,6 @@ There is one core section which is "automated":
 
 Then whatever other pages you want (e.g. About, etc.);
 
-*(For reference see the portfolio example stated above)*
 
 ## How to customize
 
