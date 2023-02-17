@@ -1,3 +1,4 @@
+import { AnalyticsWrapper } from '../components/analytics'
 import Footer from '../components/Footer/Footer'
 import Header from '../components/Header/Header'
 import NavBar from '../components/NavBar/NavBar'
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         <NavBar/> 
         {children}
         <Footer/> 
+        <AnalyticsWrapper/>
       </body>
     </html>
   )
