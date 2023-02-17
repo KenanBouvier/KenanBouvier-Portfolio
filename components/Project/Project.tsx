@@ -9,7 +9,6 @@ interface IProps{
     technologies: string[];
     description: string;
     development: string;
-    img:string | null;
     demo:string | null;
     github:string | null;
   }
@@ -42,8 +41,6 @@ export default function Project(props:IProps){
 
   return (
     <div>
-    {/* <div className="flex-container">
-      <div className='flex-child magenta'> */}
         <div className='sectionContentContainer'>
         <h1 className="projectTitle">{data.title}</h1>
         <h3 className="role">{data.role}</h3>
@@ -75,7 +72,6 @@ export default function Project(props:IProps){
           data.technologies.map((singleTech:string,key:number)=>{
             const svgUrl = getSvgUrl(singleTech);
             const svgSize = getSvgSize(singleTech);
-            // console.log(singleTech,svgSize);
             return(
               <img className='technologies' key={key} width={svgSize} src={svgUrl} alt="[svg]" />
             )
