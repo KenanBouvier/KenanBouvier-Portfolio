@@ -10,7 +10,7 @@ const data = [
     },
     { 
         title: "Sleeping Saundra",
-        role:'Full Stack Developer',
+        role:'Developer',
         technologies: ['mongodb','express','react','nodejs','typescript'],
         description: "Sleeping Saundra is an audio content driven startup that helps users' well-being. This includes sleep, stress and anxiety through a variety of carefully crafted audio content.",
         development:" ReactJS and TypeScript for frontend. For the server side, Node.js with Express to manage and build RESTful APIs with NoSQL.",
@@ -33,15 +33,6 @@ const data = [
         description: "We have seen todos list for a long time however we decided that by leveraging peer-accountability, one can boost motivation and the effectiveness to complete a given task. This multi-user group productivity app helps this issue by choosing select users to complete a task. From your own dashboard, you can see the progress of your peers on this task, helping you feel empowered to follow.",
         development:"Full stack development with LAMP: Linux, Apache, MySQL (MariaDB) and PHP.",
         github:'https://github.com/KenanBouvier/Group-Productivity/',
-        demo:null,
-    },
-    {
-        title: "Writing submission",
-        role:'Founder / Developer',
-        technologies: ['javascript'],
-        description: "An interactive writing submission website that facilitates website front end development through an easily comprehensible UI. The user is then able to save the filtered content HTML to then use for their own use (blackbox system for user).",
-        development:"Developed using Vanilla JS and no backend; relevant page data is scraped to client as a file",
-        github:'https://github.com/KenanBouvier/Writing_Wiki',
         demo:null,
     },
 ]

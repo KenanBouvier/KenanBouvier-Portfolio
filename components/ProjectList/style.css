@@ -48,11 +48,11 @@
     justify-content: center;
     display:flex;
     height:35px; 
-    /* width:200px; */
+    width:150px;
     border-radius:20px;
     text-decoration: none;
     color:white;
-    border:3px solid white;
+    border:2px solid white;
     transition: background 0.2s ease-in-out;
   }
   
@@ -62,7 +62,7 @@
   }
   
   .otherDiv{
-    flex:1;
+    /* flex:1; */
     margin-right:150px;
   }
   .hrefContainer{

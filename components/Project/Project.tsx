@@ -48,7 +48,22 @@ export default function Project(props:IProps){
         <h3 className="role">Development</h3>
         <p className='development'>{data.development}</p>
 
-        {(data.github!=null || data.demo!=null) &&
+
+        {data.github != null &&
+          <div className='hrefContainer'>
+            <a href={data.github} target='_blank' className="viewCodeHref">
+              Github 
+            </a>            
+          </div>
+        }
+        {data.demo != null &&
+          <div className='hrefContainer'>
+             <a href={data.demo} target='_blank' className="viewCodeHref">
+              Link 
+            </a>
+          </div>
+        }
+        {/* {(data.github!=null || data.demo!=null) &&
         <div className='hrefContainer'>
           {
           data.github!=null && 
@@ -67,7 +82,7 @@ export default function Project(props:IProps){
           </div>
           }
         </div>
-        }
+        } */}
         {
           data.technologies.map((singleTech:string,key:number)=>{
             const svgUrl = getSvgUrl(singleTech);
