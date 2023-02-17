@@ -62,3 +62,9 @@
   transition: all 0.2s ease-in-out;
   opacity: 1;
 }
+
+@media (max-width:710px){
+  .navMenu a {
+    display:block;
+  }
+}
