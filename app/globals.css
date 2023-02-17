@@ -21,13 +21,14 @@ body {
   --yellowColor:#fddb3a;
 }  
 
+.rootContentContainer{
+  padding-left: 50px;
+  padding-right:50px;
+}
+
 a {
   text-decoration: none;
   color: var(--yellowColor);
-}
-.sectionContentContainer{
-  padding-left:50px;
-  padding-right:50px;
 }
 .linkTag{
   text-decoration: none;
@@ -35,6 +36,10 @@ a {
 }
 
 @media (max-width:710px){
+  .rootContentContainer{
+    padding-left: 30px;
+    padding-right:30px;
+  }
   .navMenu .dot {
     display:none;
 
@@ -42,10 +47,6 @@ a {
   .navMenu a {
     display:block;
   }
-  /* .sectionContentContainer{
-    padding-left:20px;
-    padding-right:20px;
-  } */
   .name{
       /* font-size: calc(30px + 2vmin); */
       font-size: 40px;

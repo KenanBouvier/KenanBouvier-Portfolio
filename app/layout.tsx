@@ -14,8 +14,10 @@ export default function RootLayout({ children }) {
       <head />
       <body>
         <Header/>
-        <NavBar/> 
-        {children}
+        <div className='rootContentContainer'>
+          <NavBar/> 
+          {children}
+        </div>
         <Footer/> 
         <AnalyticsWrapper/>
       </body>
